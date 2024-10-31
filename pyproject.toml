@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=40.8.0"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "posawesome"
+version = "0.0.1"  # This will be dynamically updated from posawesome/__init__.py
+description = "POS Awesome"
+authors = [
+    {name = "Yousef Restom", email = "youssef@totrox.com"},
+]
+
+[tool.setuptools]
+packages = ["posawesome"]
+include-package-data = true
+zip-safe = false 
